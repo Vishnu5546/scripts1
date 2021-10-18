@@ -14,7 +14,7 @@ echo "Multiplication of $Num1 and $Num2 is $Mul"
 Sub=`expr $Num1 - $Num2`
 if [ $Num1 -lt $Num2 ];
  then
-	  echo "First value should be greater than second value"
+	  echo "While Performing Subtraction First value should be greater than second value"
 	  exit
 else
 	echo "Subtraction of $Num1 and $Num2 is $Sub"
