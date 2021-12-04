@@ -26,4 +26,5 @@ if [ $Num1 -lt $Num2 ];
           exit
 else
         echo "Division of $Num1 and $Num2 is $Div"
+	echo "Successfull"
 fi
